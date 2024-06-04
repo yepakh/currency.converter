@@ -8,7 +8,7 @@
         Title="Converter Client" Height="400" Width="500"
         ResizeMode="NoResize">
     <Grid>
-        <Label x:Name="WelcomeLable" Content="Welcome to Currency to Text converter!" HorizontalAlignment="Left" Height="53" Margin="75,21,0,0" VerticalAlignment="Top" Width="383" FontSize="20"/>
+        <Label x:Name="WelcomeLable" Content="Welcome to Currency - Text Converter!" HorizontalAlignment="Left" Height="53" Margin="75,21,0,0" VerticalAlignment="Top" Width="383" FontSize="20"/>
         <TextBox x:Name="Input" HorizontalAlignment="Left" Height="58" Margin="75,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="247" FontSize="15" GotFocus="Input_GotFocus" LostFocus="Input_LostFocus" Background="{x:Null}" Panel.ZIndex="1"/>
         <Button Click="SubmitButton_Click" x:Name="SubmitButton" Content="Submit" HorizontalAlignment="Left" Height="58" Margin="334,74,0,0" VerticalAlignment="Top" Width="91" FontSize="15"/>
         <TextBlock x:Name="ResultBlock" HorizontalAlignment="Center" Height="140" Margin="0,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" Background="#FFCECDCD" FontSize="15"/>
